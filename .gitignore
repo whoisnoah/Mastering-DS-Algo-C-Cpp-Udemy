@@ -1,0 +1,8 @@
+*.mk
+*Makefile*
+*compile_flags.txt*
+*.o
+*.d
+*.exe
+.codelite*
+recursionExamples/recursionExamples.txt

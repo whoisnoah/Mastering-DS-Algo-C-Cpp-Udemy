@@ -9,8 +9,8 @@ int userIntInput(){
     
     int selection {-1};
     int checkInt {};
-	bool quit {false};
-	
+    bool quit {false};
+    
     std::string userInput {};
      
     do {
@@ -19,15 +19,26 @@ int userIntInput(){
         
         if (validate >> checkInt){
             selection = checkInt;
-			quit = true;
+            quit = true;
         }
-		else
+        else
             std::cout << "That's not a number. Try Again: ";    
         
-		std::cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
     } while (!quit);
     
     return selection;    
+}
+
+//------------------------------------------------------------------------------
+// userIntInput() prompts the user to hit enter to continue the program and
+// waits for input
+//------------------------------------------------------------------------------
+void getkey(){
+    std::cout << "Press Enter to continue....";
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cout << std::endl;
 }
 
 #endif //_COMMON_FUNCTIONS_HPP_

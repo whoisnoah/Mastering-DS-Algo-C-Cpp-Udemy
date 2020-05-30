@@ -9,10 +9,6 @@
 
 int main() {
     
-    //the chrono std::chrono variables are used to show various execution times
-    std::chrono::steady_clock::time_point start1, start2, start3, finish1, finish2, finish3;
-    std::chrono::duration<double> timeDiff1, timeDiff2, timeDiff3;
-
 //------------------------------------------------------------------------------
 // basic array declaration and initialization
 //------------------------------------------------------------------------------

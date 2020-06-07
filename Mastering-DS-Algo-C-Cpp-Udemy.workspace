@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Mastering-DS-Algo-C-Cpp-Udemy" Database="" Version="10000">
+  <Project Name="recursionExamples" Path="recursionExamples/recursionExamples.project" Active="No"/>
+  <Project Name="arraysRepresentations" Path="arraysRepresentations/arraysRepresentations.project" Active="No"/>
+  <Project Name="arraysCustomADT" Path="arraysCustomADT/arraysCustomADT.project" Active="Yes"/>
+  <Project Name="string" Path="string/string.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="recursionExamples" ConfigName="Debug"/>
+      <Project Name="arraysRepresentations" ConfigName="Debug"/>
+      <Project Name="arraysCustomADT" ConfigName="Debug"/>
+      <Project Name="string" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="recursionExamples" ConfigName="Release"/>
+      <Project Name="arraysRepresentations" ConfigName="Release"/>
+      <Project Name="arraysCustomADT" ConfigName="Release"/>
+      <Project Name="string" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
